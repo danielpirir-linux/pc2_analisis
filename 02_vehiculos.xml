@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 2: Corregir errores de sintaxis - vehículos -->
+<!-- Elemento raíz: se agregó porque XML necesita un único elemento raíz -->
+<vehiculos>
+   <!-- Vehículos que se mueven por tierra -->
+   <terrestres>
+      <!-- Vehículo: bicicleta -->
+      <vehiculo>bicicleta</vehiculo>
+      <!-- Vehículo: coche -->
+      <vehiculo>coche</vehiculo>
+      <!-- Vehículo: tractor -->
+      <vehiculo>tractor</vehiculo>
+      <!-- Vehículo: motocicleta (agregado por el estudiante) -->
+      <vehiculo>motocicleta</vehiculo>
+   </terrestres>
+   <!-- Vehículos que se mueven por agua -->
+   <acuaticos>
+      <!-- Vehículo: canoa -->
+      <vehiculo>canoa</vehiculo>
+      <!-- Vehículo: velero (agregado por el estudiante) -->
+      <vehiculo>velero</vehiculo>
+      <!-- Vehículo: lancha (agregado por el estudiante) -->
+      <vehiculo>lancha</vehiculo>
+   </acuaticos>
+   <!-- Vehículos que se mueven por aire -->
+   <aereos>
+      <!-- Vehículo: avioneta -->
+      <vehiculo>avioneta</vehiculo>
+      <!-- Vehículo: helicóptero -->
+      <vehiculo>helicóptero</vehiculo>
+      <!-- Vehículo: globo aerostático (agregado por el estudiante) -->
+      <vehiculo>globo aerostático</vehiculo>
+   </aereos>
+</vehiculos>

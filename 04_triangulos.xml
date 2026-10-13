@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 4: Corregir errores de sintaxis - triángulos -->
+<!-- Elemento raíz: se agregó para contener los triángulos -->
+<triangulos>
+   <!-- Triángulo 1: base 7, altura 5 -->
+   <triangulo base="7" altura="5"/>
+   <!-- Triángulo 2: base 2, altura 6 -->
+   <triangulo base="2" altura="6"/>
+   <!-- Triángulo 3: base 3, altura 3 -->
+   <triangulo base="3" altura="3"/>
+   <!-- Triángulo 4 (agregado por el estudiante): base 4, altura 4 -->
+   <triangulo base="4" altura="4"/>
+   <!-- Triángulo 5 (agregado por el estudiante): base 5, altura 8 -->
+   <triangulo base="5" altura="8"/>
+   <!-- Triángulo 6 (agregado por el estudiante): base 6, altura 3 -->
+   <triangulo base="6" altura="3"/>
+   <!-- Triángulo 7 (agregado por el estudiante): base 8, altura 2 -->
+   <triangulo base="8" altura="2"/>
+   <!-- Triángulo 8 (agregado por el estudiante): base 9, altura 9 -->
+   <triangulo base="9" altura="9"/>
+   <!-- Triángulo 9 (agregado por el estudiante): base 10, altura 5 -->
+   <triangulo base="10" altura="5"/>
+   <!-- Triángulo 10 (agregado por el estudiante): base 1, altura 1 -->
+   <triangulo base="1" altura="1"/>
+</triangulos>

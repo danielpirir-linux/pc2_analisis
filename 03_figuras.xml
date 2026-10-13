@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 3: Corregir errores de sintaxis - figuras -->
+<!-- Elemento raíz: contiene todas las figuras -->
+<figuras>
+   <!-- Figura plana: cuadrado. El tipo se corrigió a atributo con comillas -->
+   <figura tipo="plana">
+      <nombre>cuadrado</nombre>
+      <!-- Cantidad de lados (corregido: ahora es un elemento) -->
+      <lados>4</lados>
+   </figura>
+   <!-- Figura plana: triángulo. El tipo se corrigió a atributo con comillas -->
+   <figura tipo="plana">
+      <nombre>triángulo</nombre>
+      <!-- Cantidad de lados (corregido: ahora es un elemento) -->
+      <lados>3</lados>
+   </figura>
+   <!-- Figura plana: rectángulo (agregada por el estudiante). El tipo se corrigió a atributo con comillas -->
+   <figura tipo="plana">
+      <nombre>rectángulo</nombre>
+      <!-- Cantidad de lados (corregido: ahora es un elemento) -->
+      <lados>4</lados>
+   </figura>
+   <!-- Figura plana: pentágono (agregada por el estudiante). El tipo se corrigió a atributo con comillas -->
+   <figura tipo="plana">
+      <nombre>pentágono</nombre>
+      <!-- Cantidad de lados (corregido: ahora es un elemento) -->
+      <lados>5</lados>
+   </figura>
+   <!-- Figura plana: hexágono (agregada por el estudiante). El tipo se corrigió a atributo con comillas -->
+   <figura tipo="plana">
+      <nombre>hexágono</nombre>
+      <!-- Cantidad de lados (corregido: ahora es un elemento) -->
+      <lados>6</lados>
+   </figura>
+   <!-- Figura tridimensional: cubo -->
+   <figura tipo="tridimensional">
+      <nombre>cubo</nombre>
+      <!-- Cantidad de aristas -->
+      <aristas>12</aristas>
+      <!-- Cantidad de caras -->
+      <caras>6</caras>
+   </figura>
+   <!-- Figura tridimensional: pirámide cuadrangular (agregada por el estudiante) -->
+   <figura tipo="tridimensional">
+      <nombre>pirámide cuadrangular</nombre>
+      <!-- Cantidad de aristas -->
+      <aristas>8</aristas>
+      <!-- Cantidad de caras -->
+      <caras>5</caras>
+   </figura>
+   <!-- Figura tridimensional: tetraedro (agregada por el estudiante) -->
+   <figura tipo="tridimensional">
+      <nombre>tetraedro</nombre>
+      <!-- Cantidad de aristas -->
+      <aristas>6</aristas>
+      <!-- Cantidad de caras -->
+      <caras>4</caras>
+   </figura>
+   <!-- Figura tridimensional: prisma triangular (agregada por el estudiante) -->
+   <figura tipo="tridimensional">
+      <nombre>prisma triangular</nombre>
+      <!-- Cantidad de aristas -->
+      <aristas>9</aristas>
+      <!-- Cantidad de caras -->
+      <caras>5</caras>
+   </figura>
+   <!-- Figura tridimensional: octaedro (agregada por el estudiante) -->
+   <figura tipo="tridimensional">
+      <nombre>octaedro</nombre>
+      <!-- Cantidad de aristas -->
+      <aristas>12</aristas>
+      <!-- Cantidad de caras -->
+      <caras>8</caras>
+   </figura>
+</figuras>

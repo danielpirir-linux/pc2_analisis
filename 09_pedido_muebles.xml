@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 9: Pedido de muebles -->
+<!-- Elemento raíz: contiene toda la información del pedido -->
+<pedido numero="PED-004" fecha="2026-06-02">
+   <!-- Información de la persona que realiza el pedido -->
+   <cliente>
+      <nombre>María Fernanda</nombre>
+      <apellidos>López Castillo</apellidos>
+   </cliente>
+   <!-- Dirección utilizada para entregar los productos -->
+   <direccionEnvio>
+      <calle>20 Calle</calle>
+      <numero>5-60</numero>
+      <zona>10</zona>
+      <ciudad>Guatemala</ciudad>
+      <codigoPostal>01010</codigoPostal>
+      <!-- Persona autorizada para recibir el pedido (datos del estudiante) -->
+      <receptor>Daniel Alfonso</receptor>
+   </direccionEnvio>
+   <!-- Dirección utilizada para realizar la factura -->
+   <direccionFacturacion>
+      <calle>Avenida Petapa</calle>
+      <numero>35-10</numero>
+      <zona>12</zona>
+      <ciudad>Guatemala</ciudad>
+      <codigoPostal>01012</codigoPostal>
+   </direccionFacturacion>
+   <!-- Lista de productos solicitados -->
+   <productos>
+      <!-- Producto: Escritorio para computadora. El código se maneja como atributo -->
+      <producto codigo="ESC-440" cantidad="1">
+         <nombre>Escritorio para computadora</nombre>
+         <!-- Material y color -->
+         <material>madera</material>
+         <color>café</color>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">1250.00</precio>
+      </producto>
+      <!-- Producto: Silla. El código se maneja como atributo -->
+      <producto codigo="SIL-220" cantidad="4">
+         <nombre>Silla</nombre>
+         <!-- Material y color -->
+         <material>metal y tela</material>
+         <color>negro</color>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">375.00</precio>
+      </producto>
+   </productos>
+   <!-- Información adicional proporcionada por el cliente -->
+   <observaciones>Verificar que los muebles no tengan daños antes de enviarlos. Son para una oficina nueva.</observaciones>
+</pedido>

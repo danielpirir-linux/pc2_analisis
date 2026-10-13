@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 1: Corregir errores de sintaxis - frutas -->
+<!-- Elemento raíz: contiene todas las frutas -->
+<frutas>
+   <!-- Fruta 1 -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>cereza</nombre>
+   </fruta>
+   <!-- Fruta 2 -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>naranja</nombre>
+   </fruta>
+   <!-- Fruta 3 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>manzana</nombre>
+   </fruta>
+   <!-- Fruta 4 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>banana</nombre>
+   </fruta>
+   <!-- Fruta 5 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>uva</nombre>
+   </fruta>
+   <!-- Fruta 6 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>fresa</nombre>
+   </fruta>
+   <!-- Fruta 7 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>piña</nombre>
+   </fruta>
+   <!-- Fruta 8 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>mango</nombre>
+   </fruta>
+   <!-- Fruta 9 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>sandía</nombre>
+   </fruta>
+   <!-- Fruta 10 (agregada por el estudiante) -->
+   <fruta>
+      <!-- Nombre de la fruta -->
+      <nombre>papaya</nombre>
+   </fruta>
+</frutas>

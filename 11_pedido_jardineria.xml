@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 11: Pedido de herramientas de jardinería -->
+<!-- Elemento raíz: contiene toda la información del pedido -->
+<pedido numero="PED-006" fecha="2011-09-15" prioridad="urgente">
+   <!-- Información de la persona que realiza el pedido -->
+   <cliente>
+      <nombre>Roberto</nombre>
+      <apellidos>Movilla</apellidos>
+   </cliente>
+   <!-- Dirección utilizada para entregar los productos -->
+   <direccionEnvio>
+      <calle>Plaza de la Duquesa</calle>
+      <numero>12</numero>
+      <ciudad>Albacete</ciudad>
+      <codigoPostal>05020</codigoPostal>
+      <pais>España</pais>
+      <!-- Persona autorizada para recibir el pedido (datos del estudiante) -->
+      <receptor>Daniel Alfonso</receptor>
+   </direccionEnvio>
+   <!-- Dirección utilizada para realizar la factura -->
+   <direccionFacturacion>
+      <calle>General Ricardos</calle>
+      <numero>56</numero>
+      <ciudad>Madrid</ciudad>
+      <codigoPostal>28055</codigoPostal>
+      <pais>España</pais>
+   </direccionFacturacion>
+   <!-- Lista de productos solicitados -->
+   <productos>
+      <!-- Producto: Cortadora de césped. El código se maneja como atributo -->
+      <producto codigo="872-AA" cantidad="1">
+         <nombre>Cortadora de césped</nombre>
+         <!-- El cliente la prefiere eléctrica (la de gasolina contamina), pero el empleado no pudo confirmar el tipo; está en oferta -->
+         <tipo solicitado="eléctrica" confirmado="no"/>
+         <!-- Precio unitario -->
+         <precio moneda="EUR">148.95</precio>
+      </producto>
+      <!-- Producto: Podadora para setos. El código se maneja como atributo -->
+      <producto codigo="926-FH" cantidad="3">
+         <nombre>Podadora para setos</nombre>
+         <!-- Precio unitario -->
+         <precio moneda="EUR">7.98</precio>
+      </producto>
+   </productos>
+   <!-- Información adicional proporcionada por el cliente -->
+   <observaciones>Es urgente: el césped está muy alto.</observaciones>
+</pedido>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 8: Pedido en una ferretería -->
+<!-- Elemento raíz: contiene toda la información del pedido -->
+<pedido numero="PED-003" fecha="2026-03-12" fechaEntrega="2026-03-14">
+   <!-- Información de la persona que realiza el pedido -->
+   <cliente>
+      <nombre>José Antonio</nombre>
+      <apellidos>García Soto</apellidos>
+   </cliente>
+   <!-- Dirección utilizada para entregar los productos -->
+   <direccionEnvio>
+      <calle>4a Calle</calle>
+      <numero>16-42</numero>
+      <zona>3</zona>
+      <ciudad>Escuintla</ciudad>
+      <codigoPostal>05001</codigoPostal>
+      <!-- Persona autorizada para recibir el pedido (datos del estudiante) -->
+      <receptor>Daniel Alfonso</receptor>
+   </direccionEnvio>
+   <!-- Dirección utilizada para realizar la factura -->
+   <direccionFacturacion>
+      <calle>4a Calle</calle>
+      <numero>16-42</numero>
+      <zona>3</zona>
+      <ciudad>Escuintla</ciudad>
+      <codigoPostal>05001</codigoPostal>
+   </direccionFacturacion>
+   <!-- Lista de productos solicitados -->
+   <productos>
+      <!-- Producto: Cemento. El código se maneja como atributo -->
+      <producto codigo="CEM-425" cantidad="5">
+         <nombre>Cemento</nombre>
+         <!-- Peso de cada bolsa -->
+         <peso unidad="kg">42.5</peso>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">82.50</precio>
+      </producto>
+      <!-- Producto: Tubo PVC. El código se maneja como atributo -->
+      <producto codigo="PVC-050" cantidad="10">
+         <nombre>Tubo PVC</nombre>
+         <!-- Diámetro del tubo -->
+         <diametro unidad="pulgadas">0.5</diametro>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">18.90</precio>
+      </producto>
+      <!-- Producto: Taladro. El código se maneja como atributo -->
+      <producto codigo="TAL-E500" cantidad="1">
+         <nombre>Taladro</nombre>
+         <!-- Características: el cliente pidió taladro eléctrico, no inalámbrico -->
+         <potencia unidad="W">500</potencia>
+         <!-- Tipo de alimentación -->
+         <alimentacion>eléctrica</alimentacion>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">650.00</precio>
+      </producto>
+   </productos>
+   <!-- Información adicional proporcionada por el cliente -->
+   <observaciones>Necesita el pedido para el próximo sábado (14 de marzo de 2026). La factura usa la misma dirección de envío.</observaciones>
+</pedido>

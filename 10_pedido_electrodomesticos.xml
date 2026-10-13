@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 10: Pedido de electrodomésticos -->
+<!-- Elemento raíz: contiene toda la información del pedido -->
+<pedido numero="PED-005" fecha="2026-07-18">
+   <!-- Información de la persona que realiza el pedido -->
+   <cliente>
+      <nombre>Ricardo</nombre>
+      <apellidos>Morales Díaz</apellidos>
+   </cliente>
+   <!-- Dirección utilizada para entregar los productos -->
+   <direccionEnvio>
+      <calle>3a Avenida</calle>
+      <numero>7-55</numero>
+      <zona>2</zona>
+      <ciudad>Mixco</ciudad>
+      <codigoPostal>01057</codigoPostal>
+      <!-- Persona autorizada para recibir el pedido (datos del estudiante) -->
+      <receptor>Daniel Alfonso</receptor>
+   </direccionEnvio>
+   <!-- Dirección utilizada para realizar la factura -->
+   <direccionFacturacion>
+      <calle>8a Calle</calle>
+      <numero>10-22</numero>
+      <zona>1</zona>
+      <ciudad>Mixco</ciudad>
+      <codigoPostal>01057</codigoPostal>
+   </direccionFacturacion>
+   <!-- Lista de productos solicitados -->
+   <productos>
+      <!-- Producto: Refrigeradora. El código se maneja como atributo -->
+      <producto codigo="REF-140G" cantidad="1">
+         <nombre>Refrigeradora</nombre>
+         <!-- Capacidad y color -->
+         <capacidad unidad="pies cúbicos">14</capacidad>
+         <color>gris</color>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">4850.00</precio>
+      </producto>
+      <!-- Producto: Horno microondas. El código se maneja como atributo -->
+      <producto codigo="MIC-1000" cantidad="1">
+         <nombre>Horno microondas</nombre>
+         <!-- Potencia y color -->
+         <potencia unidad="W">1000</potencia>
+         <color>negro</color>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">950.00</precio>
+      </producto>
+   </productos>
+   <!-- Información adicional proporcionada por el cliente -->
+   <observaciones>La entrega debe realizarse durante la mañana.</observaciones>
+</pedido>

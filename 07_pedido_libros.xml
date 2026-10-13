@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 7: Pedido de libros escolares -->
+<!-- Elemento raíz: contiene toda la información del pedido -->
+<pedido numero="PED-002" prioridad="normal" servicio="exprés">
+   <!-- Información de la persona que realiza el pedido -->
+   <cliente>
+      <nombre>Ana Lucía</nombre>
+      <apellidos>Pérez Ramírez</apellidos>
+   </cliente>
+   <!-- Dirección utilizada para entregar los productos -->
+   <direccionEnvio>
+      <calle>6a Avenida</calle>
+      <numero>14-30</numero>
+      <zona>1</zona>
+      <ciudad>Quetzaltenango</ciudad>
+      <codigoPostal>09001</codigoPostal>
+      <!-- Persona autorizada para recibir el pedido (datos del estudiante) -->
+      <receptor>Daniel Alfonso</receptor>
+   </direccionEnvio>
+   <!-- Dirección utilizada para realizar la factura -->
+   <direccionFacturacion>
+      <calle>6a Avenida</calle>
+      <numero>14-30</numero>
+      <zona>1</zona>
+      <ciudad>Quetzaltenango</ciudad>
+      <codigoPostal>09001</codigoPostal>
+   </direccionFacturacion>
+   <!-- Lista de productos solicitados -->
+   <productos>
+      <!-- Producto: Libro Matemática Primero Básico. El código se maneja como atributo -->
+      <producto codigo="LIB-MAT-101" cantidad="3">
+         <nombre>Libro Matemática Primero Básico</nombre>
+         <!-- Editorial -->
+         <editorial>Educación Moderna</editorial>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">125.00</precio>
+      </producto>
+      <!-- Producto: Diccionario de Español. El código se maneja como atributo -->
+      <producto codigo="DIC-ESP-02" cantidad="2">
+         <nombre>Diccionario de Español</nombre>
+         <!-- Editorial -->
+         <editorial>Lengua Viva</editorial>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">85.75</precio>
+      </producto>
+   </productos>
+   <!-- Información adicional proporcionada por el cliente -->
+   <observaciones>Necesita los libros antes del inicio de clases. La factura usa la misma dirección de envío.</observaciones>
+</pedido>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 5: Corregir errores de sintaxis - números -->
+<!-- Elemento raíz: contiene todos los números. Los nombres de elementos no pueden empezar con número ni repetir atributos, por eso se usa numero con id y letra1, letra2... -->
+<numeros>
+   <!-- Número 1: uno -->
+   <numero id="1" letra1="u" letra2="n" letra3="o">1</numero>
+   <!-- Número 2: dos -->
+   <numero id="2" letra1="d" letra2="o" letra3="s">22</numero>
+   <!-- Número 6: seis -->
+   <numero id="6" letra1="s" letra2="e" letra3="i" letra4="s">666666</numero>
+   <!-- Número 17: diecisiete (cuarto número: la clave del estudiante) -->
+   <numero id="17" letra1="d" letra2="i" letra3="e" letra4="c" letra5="i" letra6="s" letra7="i" letra8="e" letra9="t" letra10="e">17</numero>
+   <!-- Número 3: tres (agregado por el estudiante) -->
+   <numero id="3" letra1="t" letra2="r" letra3="e" letra4="s">333</numero>
+   <!-- Número 4: cuatro (agregado por el estudiante) -->
+   <numero id="4" letra1="c" letra2="u" letra3="a" letra4="t" letra5="r" letra6="o">4444</numero>
+   <!-- Número 5: cinco (agregado por el estudiante) -->
+   <numero id="5" letra1="c" letra2="i" letra3="n" letra4="c" letra5="o">55555</numero>
+   <!-- Número 7: siete (agregado por el estudiante) -->
+   <numero id="7" letra1="s" letra2="i" letra3="e" letra4="t" letra5="e">7777777</numero>
+   <!-- Número 8: ocho (agregado por el estudiante) -->
+   <numero id="8" letra1="o" letra2="c" letra3="h" letra4="o">88888888</numero>
+   <!-- Número 9: nueve (agregado por el estudiante) -->
+   <numero id="9" letra1="n" letra2="u" letra3="e" letra4="v" letra5="e">999999999</numero>
+</numeros>

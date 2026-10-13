@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAPP -->
+<!-- Ejercicio 6: Pedido de equipo de computación -->
+<!-- Elemento raíz: contiene toda la información del pedido -->
+<pedido numero="PED-001" fecha="2026-08-20" prioridad="urgente">
+   <!-- Información de la persona que realiza el pedido -->
+   <cliente>
+      <nombre>Carlos</nombre>
+      <apellidos>Méndez López</apellidos>
+   </cliente>
+   <!-- Dirección utilizada para entregar los productos -->
+   <direccionEnvio>
+      <calle>Avenida Reforma</calle>
+      <numero>45</numero>
+      <zona>10</zona>
+      <ciudad>Ciudad de Guatemala</ciudad>
+      <codigoPostal>01010</codigoPostal>
+      <!-- Persona autorizada para recibir el pedido (datos del estudiante) -->
+      <receptor>Daniel Alfonso</receptor>
+   </direccionEnvio>
+   <!-- Dirección utilizada para realizar la factura -->
+   <direccionFacturacion>
+      <calle>12 Calle</calle>
+      <numero>8-25</numero>
+      <zona>7</zona>
+      <ciudad>Ciudad de Guatemala</ciudad>
+      <codigoPostal>01007</codigoPostal>
+   </direccionFacturacion>
+   <!-- Lista de productos solicitados -->
+   <productos>
+      <!-- Producto: Computadora portátil. El código se maneja como atributo -->
+      <producto codigo="LP-2450" cantidad="1">
+         <nombre>Computadora portátil</nombre>
+         <!-- Características específicas del equipo -->
+         <caracteristicas>
+            <memoriaRAM unidad="GB">16</memoriaRAM>
+            <almacenamiento tipo="SSD" unidad="GB">512</almacenamiento>
+         </caracteristicas>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">6850.00</precio>
+      </producto>
+      <!-- Producto: Memoria USB. El código se maneja como atributo -->
+      <producto codigo="USB-064" cantidad="2">
+         <nombre>Memoria USB</nombre>
+         <!-- Capacidad de la memoria -->
+         <capacidad unidad="GB">64</capacidad>
+         <!-- Precio unitario -->
+         <precio moneda="GTQ">75.50</precio>
+      </producto>
+   </productos>
+   <!-- Información adicional proporcionada por el cliente -->
+   <observaciones>Necesita recibir el pedido lo antes posible porque comenzará un nuevo trabajo.</observaciones>
+</pedido>
